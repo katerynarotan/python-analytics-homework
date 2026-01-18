@@ -7,7 +7,8 @@ data = {
 
 df = pd.DataFrame(data)
 
-print("Продажі по містах:")
+print("Продажі по містах (тимчасова версія):")
+
 print(df)
 
 average_sales = df["sales"].mean()
